@@ -1,0 +1,147 @@
+/* Google Font */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+/* primary things */
+.primary-btn {
+    background-color: rgb(75 0 130);
+    color: #fff;
+    /* width: 150px; */
+}
+
+.primary-text {
+    color: rgb(27 118 192);
+}
+
+.primary-tex {
+    color: rgb(75 0 130);
+}
+
+.primary-bg2 {
+    background-color: rgb(27 118 192);
+}
+
+.primary-bg {
+    background-color: rgb(173 216 230 / 50%);
+}
+
+.logo{
+    width: 100px;
+}
+
+.team-lable{
+
+    padding: 5px 30px;
+}
+
+/* banner section */
+.carousel-item img {
+    height: 650px;
+}
+
+/* who we are section */
+.who-img {
+    height: 100px;
+}
+
+.who-div {
+    border-radius: 15px;
+}
+
+.left-img {
+    border-radius: 15px 0 0 0;
+}
+
+.right-img {
+    border-radius: 0 0 15px 0;
+}
+
+.foundation-logo {
+    width: 120px;
+
+}
+
+/* Our Approaches */
+.icon-card {
+    text-align: center;
+    padding: 50px;
+    color: white;
+    background-color: rgb(27 118 192);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.icon-card img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+/* Beneficiaries */
+
+/* Team section */
+.member-img {
+    width: 110px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 2px solid rgb(75 0 130);
+}
+
+/* Testimonial Carousel */
+.testimonial-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+/* Our Foucs */
+.focus-img{
+    width: 150px;
+}
+
+.company-img{
+    width: 200px;
+}
+
+
+
+/* *********** Responsive CSS ************* */
+
+/* banner section */
+@media (max-width: 768px) {
+    .carousel-caption h1 {
+        font-size: 2rem;
+        /* Adjust for mobile */
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+        /* Adjust for mobile */
+    }
+}
+
+/* who we are section */
+@media (max-width: 768px) {
+    .who-img {
+        height: auto;
+        /* Ensure logos scale properly */
+        max-width: 80%;
+        /* Limit the width of the logo on small screens */
+    }
+
+    .text-light {
+        font-size: 1.2rem;
+        /* Adjust font size for smaller screens */
+    }
+
+    .p-5 {
+        padding: 1rem;
+        /* Reduce padding on mobile */
+    }
+}
