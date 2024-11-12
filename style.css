@@ -30,11 +30,15 @@ body {
     background-color: rgb(173 216 230 / 50%);
 }
 
-.logo{
-    width: 100px;
+.text {
+    text-align: justify;
 }
 
-.team-lable{
+.logo {
+    width: 90px;
+}
+
+.team-lable {
 
     padding: 5px 30px;
 }
@@ -93,7 +97,7 @@ body {
 }
 
 /* Testimonial Carousel */
-.testimonial-img{
+.testimonial-img {
     width: 150px;
     height: 150px;
     border-radius: 100%;
@@ -101,11 +105,11 @@ body {
 }
 
 /* Our Foucs */
-.focus-img{
+.focus-img {
     width: 150px;
 }
 
-.company-img{
+.company-img {
     width: 200px;
 }
 
@@ -143,5 +147,11 @@ body {
     .p-5 {
         padding: 1rem;
         /* Reduce padding on mobile */
+    }
+}
+
+@media (min-width: 768px) {
+    .logo {
+        width: 100px;
     }
 }
