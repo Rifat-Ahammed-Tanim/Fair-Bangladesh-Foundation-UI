@@ -52,6 +52,10 @@ html, body {
     height: 650px;
 }
 
+.banner{
+    padding-top: 120px;
+}
+
 /* who we are section */
 .who-img {
     height: 100px;
